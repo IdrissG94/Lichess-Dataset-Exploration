@@ -14,7 +14,7 @@ Objectifs personnels :
 - se familiariser avec l'étude de large jeu de données et des modules python communément utilisés en science des données (en particulier pandas, numpy et matplotlib),
 - appliquer les savoirs acquis en cours de statistiques, modélisation et programmation.
 
-Objectif du projet :
+Objectifs du projet :
 - permettre de visualiser de façon claire et pertinente les données obtenues,
 - analyser la relation entre l’écart d’Elo entre deux joueurs et la probabilité de victoire du joueur le mieux classé
 
