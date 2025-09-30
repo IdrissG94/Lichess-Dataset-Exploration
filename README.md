@@ -19,3 +19,6 @@ Objectif du projet :
 - analyser la relation entre l’écart d’Elo entre deux joueurs et la probabilité de victoire du joueur le mieux classé
 
 Méthodologie :
+- analyse du dataset et des informations contenue:
+  ->
+  
