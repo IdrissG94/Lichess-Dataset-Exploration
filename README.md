@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/datasnaek/chess
 
 Objectifs personnels :
 - se familiariser avec l'étude de large jeu de données et des modules python communément utilisés en science des données (en particulier pandas, numpy et matplotlib),
-- appliquer les savoirs acquis en cours de statistiques, modélisation et programmation.
+- appliquer les savoirs acquis en cours (probabilités, programmation python).
 
 Objectifs du projet :
 - permettre de visualiser de façon claire et pertinente les données obtenues,
