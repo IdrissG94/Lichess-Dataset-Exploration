@@ -1,6 +1,7 @@
 # Lichess-Dataset-Exploration-Visualisation
 
 Introduction et description du projet :
+
 Ce projet a pour objectif d’analyser un dataset réel de parties d’échecs issues de la plateforme Lichess.org, disponible sur Kaggle. 
 L’idée est de mettre en pratique des outils couramment utilisés en science des données avec Python (notamment pandas, numpy et matplotlib) afin de manipuler, explorer et visualiser un large volume de données.
 L’analyse s’intéresse en particulier à la relation entre l’écart d’Elo entre deux joueurs et la probabilité de victoire du joueur le mieux classé. D’autres aspects liés aux parties, tels que l’avantage des Blancs, seront également étudiés.
