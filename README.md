@@ -57,17 +57,19 @@ Les questions soulevées par l'analyse exploratoire :
   Nb. victoires blancs : 10001 
   N.b victoires énoirs : 9107 
   match nul : 950
-  -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires,
+  -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude.
 
+- Le système élo, appliqué à notre jeu de données, avantage-t-il bien les joueurs d'un élo supérieur ? Le fait-il de manière cohérente (application mathématique) ?
+  t
 - Les échecs, un jeu frustrant ?
-    
+  t
+  
 Ouvertures :
 
 
 Sources :
 https://lichess.org/page/rating-systems
 https://fr.wikipedia.org/wiki/Classement_Elo
-
 
 Licence :
 Projet académique réalisé à des fins d’apprentissage.  
