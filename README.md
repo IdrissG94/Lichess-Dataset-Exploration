@@ -50,7 +50,7 @@ Les questions soulevées par l'analyse exploratoire :
 - Pourquoi autant de joueurs aux alentours de 1500 élo ?
 
   Effectivement on remarque un nombre conqéquent de joueurs entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs ont exactement 1500 de score élo. Cette surreprésentation s'explique par de nombreux facteurs :
-  - Glicko 2 est le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
+  - Glicko 2 : le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
   - La majorité des joueurs sont moyens ou peu actifs,
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
   - Le système de rating maintient un équilibre statistique,
