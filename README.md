@@ -32,11 +32,17 @@ Conclusions :
 
 - Le jeu de données en quelques chiffres :
   Nbr total de parties :  20058
+
   Nbr total de joueurs différents : 15635
+  
   Moyenne du classement élo des joueurs : 1592.73
+  
   Médiane du classement élo des joueurs : 1564.0
+  
   Classement élo maximum : 2723
+  
   Classement élo minimum : 784
+  
 
 Les questions soulevées par l'analyse exploratoire :
 
