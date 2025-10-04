@@ -97,8 +97,10 @@ En général, oui le système élo est appliqué de manière cohérente dans nos
   Ces tendances peuvent être interprétées sous l’angle psychologique : entre résignation, erreur sous pression et absence de finalisation jusqu’au mat, les échecs apparaissent non seulement comme un jeu de stratégie, mais aussi comme un jeu de gestion émotionnelle.
 
 
-Ouvertures :
+Ouvertures et fin :
 
+Ce projet constitue une première exploration, mais plusieurs prolongements sont possibles.
+D’un point de vue statistique, l’analyse pourrait être approfondie sur un dataset plus large (plusieurs centaines de milliers ou millions de parties) limiter les biais et confirmer les tendances. L’utilisation de méthodes de machine learning (régression logistique avancée, arbres de décision, clustering, modèles probabilistes) permettrait de prédire l’issue d’une partie en fonction de l’Elo, de l’ouverture, du nombre de coups ou du contrôle de temps.
 
 Sources :
 
