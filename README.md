@@ -100,7 +100,7 @@ En général, oui le système élo est appliqué de manière cohérente dans nos
 Ouvertures et fin :
 
 Ce projet constitue une première exploration, mais plusieurs prolongements sont possibles.
-D’un point de vue statistique, l’analyse pourrait être approfondie sur un dataset plus large (plusieurs centaines de milliers ou millions de parties) limiter les biais et confirmer les tendances. L’utilisation de méthodes de machine learning (régression logistique avancée visible déjà à la fin du notebook avec une simple regression logistique, arbres de décision, clustering, modèles probabilistes) permettrait de prédire l’issue d’une partie en fonction de l’Elo, de l’ouverture, du nombre de coups ou du contrôle de temps.
+D’un point de vue statistique, l’analyse pourrait être approfondie sur un dataset plus large (plusieurs centaines de milliers ou millions de parties) limiter les biais et confirmer les tendances. L’utilisation de méthodes de machine learning (régression logistique avancée visible déjà à la fin du notebook avec une simple regression logistique, arbres de décision, clustering, modèles probabilistes), bien que je n'ai pas encore les compétences pour, permettrait de prédire l’issue d’une partie en fonction de l’Elo, de l’ouverture, du nombre de coups ou du contrôle de temps.
 
 Sources :
 
