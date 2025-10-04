@@ -56,16 +56,20 @@ Les questions soulevées par l'analyse exploratoire :
   
 - L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
 
-  Nbr victoires blancs : 10001 (49.9%)
+  Nbr victoires blancs : 10476 (52.22%)
 
-  Nbr victoires noirs : 9107 (45.4%)
+  Nbr victoires noirs : 9582 (47.78%)
   
-  Nbr matchs nuls : 950 (4.7%)
-  
-  ->  49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude. Cela entre en adéquation avec des études plus sérieuses sur l'avantage des blancs aux échecs
+  ->  52.22% de victoires blanches contre 47.78% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude. Cela entre en adéquation avec des études plus sérieuses sur l'avantage des blancs aux échecs qui estiment les chances de victoires des blancs entre  52-55% sur Lichess.
 
-- Le système élo, appliqué à notre jeu de données, avantage-t-il bien les joueurs d'un élo supérieur ? Le fait-il de manière cohérente (application mathématique) ?
-  t
+- le système Elo est-il appliqué de manière cohérente dans les données ?
+- 
+| Écart Elo | Victoires du mieux classé attendues | Ce qu’on observe ? |
+| --------- | ----------------------------------- | ------------------ |
+| 0–50      | ≈ 52–55 %                           | 51.5 %             |
+| 50–100    | ≈ 55–60 %                           | 58.3 %             |
+| 100–200   | ≈ 60–70 %                           | 65.7 %             | 
+
 - Les échecs, un jeu frustrant ?
   t
   
