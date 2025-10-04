@@ -87,7 +87,7 @@ En général, oui le système élo est appliqué de manière cohérente dans nos
 
   Ces chiffres montrent que la majorité des joueurs ne jouent pas jusqu’au bout de la partie. Plus d’une partie sur deux se termine par abandon, ce qui peut témoigner d’une forme de découragement, de frustration ou simplement d’un réalisme stratégique dès qu’une position est jugée perdante.
 
-  À l’inverse, seules 31,5 % des parties vont jusqu’à l’échec et mat, ce qui rappelle qu’en pratique, le mat « sur l’échiquier » reste minoritaire, malgré son image emblématique dans l’imaginaire collectif.
+  À l’inverse, seules 31,5 % des parties vont jusqu’à l’échec et mat, ce qui rappelle qu’en pratique, le mat "sur l’échiquier" reste minoritaire malgré le fait que tout le jeu tourne autour justement de cette menace.
 
   Les fins au temps (8,4 %) soulignent l’impact du contrôle de cadence et du jeu rapide : la pression chronométrique joue un rôle non négligeable, notamment dans les parties en ligne.
 
