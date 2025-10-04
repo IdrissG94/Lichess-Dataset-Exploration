@@ -62,7 +62,7 @@ Les questions soulevées par l'analyse exploratoire :
   
   ->  52.22 % de victoires blanches contre 47.78% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude. Cela entre en adéquation avec des études plus sérieuses sur l'avantage des blancs aux échecs qui estiment les chances de victoires des blancs entre  52-55 % sur Lichess.
 
-- le système Elo est-il appliqué de manière cohérente dans les données ?
+- Le système Elo est-il appliqué de manière cohérente dans les données ?
 
   En utilsant la formule mathématiques liée au classement élo : P(Victoire)=1/(10^(-ΔElo/400​) , où ΔElo = Elofavori​−Eloadversaire​ et désigne la différence d'élo entre deux joueurs.
 
@@ -76,10 +76,17 @@ Les questions soulevées par l'analyse exploratoire :
 En général, oui le système élo est appliqué de manière cohérente dans nos données.
 
 - Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :
+  
   Abandon : 55.6 %
+  
   Echec et mat : 31.5 %
+  
   Temps : 8.4 %
+  
   Nul : 4.5 %
+  
+
+
 Ouvertures :
 
 
