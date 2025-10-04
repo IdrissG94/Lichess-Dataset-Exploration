@@ -54,9 +54,13 @@ Les questions soulevées par l'analyse exploratoire :
   - Le système de rating maintient un équilibre statistique,
   
 - L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
-  Nb. victoires blancs : 10001 
-  N.b victoires énoirs : 9107 
-  match nul : 950
+
+  Nbr victoires blancs : 10001 
+
+  Nbr victoires énoirs : 9107
+  
+  Nbr matchs nuls : 950
+  
   -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude.
 
 - Le système élo, appliqué à notre jeu de données, avantage-t-il bien les joueurs d'un élo supérieur ? Le fait-il de manière cohérente (application mathématique) ?
