@@ -57,7 +57,7 @@ Les questions soulevées par l'analyse exploratoire :
 
   Nbr victoires blancs : 10001 
 
-  Nbr victoires énoirs : 9107
+  Nbr victoires noirs : 9107
   
   Nbr matchs nuls : 950
   
