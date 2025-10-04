@@ -65,6 +65,8 @@ Les questions soulevées par l'analyse exploratoire :
 - le système Elo est-il appliqué de manière cohérente dans les données ?
 
   En utilsant la formule mathématiques de l'élo : P(victoire)=1+10−ΔElo/4001​
+
+  
 | Écart Elo | Victoires du mieux classé attendues | Ce qu’on observe ? |
 | --------- | ----------------------------------- | ------------------ |
 | 0–50      | ≈ 52–55 %                           | 51.5 %             |
