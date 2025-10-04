@@ -101,7 +101,9 @@ Ouvertures :
 
 
 Sources :
+
 https://lichess.org/page/rating-systems
+
 https://fr.wikipedia.org/wiki/Classement_Elo
 
 Licence :
