@@ -31,6 +31,7 @@ Résultats attendus :
 Conclusions : 
 
 - Le jeu de données en quelques chiffres :
+
   Nbr total de parties :  20058
 
   Nbr total de joueurs différents : 15635
@@ -43,7 +44,6 @@ Conclusions :
   
   Classement élo minimum : 784
   
-
 Les questions soulevées par l'analyse exploratoire :
 
 - Pourquoi autant de joueurs aux alentours de 1500 élo ?
