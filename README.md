@@ -73,8 +73,10 @@ Les questions soulevées par l'analyse exploratoire :
 | 50–100    | ≈ 55–60 %                           | 58.3 %             |
 | 100–200   | ≈ 60–70 %                           | 65.7 %             | 
 
+En général, oui le système élo est appliqué de manière cohérente dans nos données.
+
 - Les échecs, un jeu frustrant ?
-  t
+
   
 Ouvertures :
 
