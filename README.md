@@ -55,11 +55,11 @@ Les questions soulevées par l'analyse exploratoire :
   
 - L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
 
-  Nbr victoires blancs : 10001 
+  Nbr victoires blancs : 10001 (49.9%)
 
-  Nbr victoires noirs : 9107
+  Nbr victoires noirs : 9107 (45.4%)
   
-  Nbr matchs nuls : 950
+  Nbr matchs nuls : 950 (4.7%)
   
   -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude.
 
