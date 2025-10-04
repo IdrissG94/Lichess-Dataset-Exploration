@@ -26,12 +26,7 @@ Jupyter Notebook
 Résultats attendus :
 - Visualisation claire de la distribution des classements Elo,
 - Étude l’influence de l’écart d’Elo sur le résultat des parties,
-- Mise en évidence (ou non) d’un avantage mesurable pour les Blancs,
-- Impact éventuel de la cadence de jeu sur la précision du système Elo.
-
-Difficultés possibles :
-- Nettoyage du dataset (parties incomplètes ou abandonnées),
-- Interprétation prudente des résultats pour éviter de confondre corrélation et causalité.
+- Mise en évidence (ou non) d’un avantage mesurable pour les Blancs.
 
 Licence :
 Projet académique réalisé à des fins d’apprentissage.  
