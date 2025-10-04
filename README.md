@@ -1,3 +1,4 @@
+
 # Lichess-Dataset-Exploration-Visualisation
 
 Introduction et description du projet :
@@ -61,7 +62,7 @@ Les questions soulevées par l'analyse exploratoire :
   
   Nbr matchs nuls : 950 (4.7%)
   
-  -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude.
+  ->  49.9% de victoires blanches contre 45.4% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude. Cela entre en adéquation avec des études plus sérieuses sur l'avantage des blancs aux échecs
 
 - Le système élo, appliqué à notre jeu de données, avantage-t-il bien les joueurs d'un élo supérieur ? Le fait-il de manière cohérente (application mathématique) ?
   t
