@@ -52,8 +52,16 @@ Les questions soulevées par l'analyse exploratoire :
   - La majorité des joueurs sont moyens ou peu actifs,
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
   - Le système de rating maintient un équilibre statistique,
-    
+  
+- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
+  Nb. victoires blancs : 10001 
+  N.b victoires énoirs : 9107 
+  match nul : 950
+  -> Soit 49.9% de victoires blanches contre 45.4% de victoires noires,
 
+- Les échecs, un jeu frustrant ?
+    
+Ouvertures :
 
 
 Sources :
