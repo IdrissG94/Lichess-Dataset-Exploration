@@ -34,16 +34,25 @@ Les conclusions que nous exposerons ici se feront sur la base des données obten
 Le jeu de données en quelques chiffres :
 Nbr total de parties :  20058
 Nbr total de joueurs différents : 15635
-Moyenne du classement élo : 1592.73
-Médiane du classement élo : 1564.5
+Moyenne du classement élo des joueurs : 1592.73
+Médiane du classement élo des joueurs : 1564.0
 Classement élo maximum : 2723
+Classement élo minimum : 784
 
 
 - Pourquoi autant de joueurs aux alentours de 1500 élo ?
-  Effectivement dans le premier   
+  Effectivement on remarque un grand nombre entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs à exactement 1500. Cette surreprésentation s'explique par de nombreux facteurs :
+  - Glicko 2 est le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
+  - La majorité des joueurs sont moyens ou peu actifs,
+  - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
+  - Le système de rating maintient un équilibre statistique,
+    
 
 
 
+Sources :
+https://lichess.org/page/rating-systems
+https://fr.wikipedia.org/wiki/Classement_Elo
 
 
 Licence :
