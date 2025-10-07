@@ -70,7 +70,7 @@ Les questions soulevées par l'analyse exploratoire :
   
 |   ΔElo    | Victoires du mieux classé attendues | Observations       |
 | --------- | ----------------------------------- | ------------------ |
-| 0–50      | ≈ 52–55 %                           | 51.5 %             |
+| 0–50      | ≈ 50–55 %                           | 51.5 %             |
 | 50–100    | ≈ 55–60 %                           | 58.3 %             |
 | 100–200   | ≈ 60–70 %                           | 65.7 %             | 
 
