@@ -65,7 +65,7 @@ Les questions soulevées par l'analyse exploratoire :
 
 - Le système Elo est-il appliqué de manière cohérente dans les données ?
 
-  En utilsant la formule mathématiques liée au classement élo : P(Victoire)=1/(10^(-ΔElo/400​) , où ΔElo = Elofavori​−Eloadversaire​ et désigne la différence d'élo entre deux joueurs.
+  En utilsant la formule mathématiques liée au classement élo : P(Victoire)=1/(1 + 10^(-ΔElo/400​) , où ΔElo = Elofavori​−Eloadversaire​ et désigne la différence d'élo entre deux joueurs.
 
   
 |   ΔElo    | Victoires du mieux classé attendues | Observations       |
