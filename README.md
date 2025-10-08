@@ -29,7 +29,7 @@ Résultats attendus :
 - Étude l’influence de l’écart d’Elo sur le résultat des parties,
 - Mise en évidence (ou non) d’un avantage mesurable pour les Blancs.
 
-## Conclusions (basées en grande partie sur le Notebook): 
+## Conclusions (+Notebook): 
 
 - Le jeu de données en quelques chiffres :
 
