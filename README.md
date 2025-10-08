@@ -72,7 +72,7 @@ Les questions soulevées par l'analyse exploratoire :
 | --------- | ----------------------------------- | ------------------ |
 | 0–50      | ≈ 50–55 %                           | 51.5 %             |
 | 50–100    | ≈ 55–60 %                           | 58.3 %             |
-| 100–200   | ≈ 60–70 %                           | 65.7 %             | 
+| 100–200   | ≈ 60–70 %                           | 65.4 %             | 
 
 En général, oui le système élo est appliqué de manière cohérente dans nos données.
 
