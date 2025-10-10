@@ -71,8 +71,8 @@ Les questions soulevées par l'analyse exploratoire :
 |   ΔElo    | Victoires du mieux classé attendues | Observations       |
 | --------- | ----------------------------------- | ------------------ |
 | 0–50      | ≈ 50–55 %                           | 51.5 %             |
-| 50–100    | ≈ 55–60 %                           | 58.3 %             |
-| 100–200   | ≈ 60–70 %                           | 65.4 %             | 
+| 50–100    | ≈ 55–60 %                           | 57.9 %             |
+| 100–200   | ≈ 60–70 %                           | 64.7 %             | 
 
 En général, oui le système élo est appliqué de manière cohérente dans nos données.
 
