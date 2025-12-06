@@ -53,7 +53,7 @@ Les questions soulevées par l'analyse exploratoire :
   - Glicko 2 : le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
   - La majorité des joueurs sont moyens ou peu actifs,
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
-  - Le système de rating maintient un équilibre statistique,
+  - Le système de classement (rating) maintient un équilibre statistique,
   
 - L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
 
