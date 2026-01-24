@@ -31,7 +31,7 @@ Résultats attendus :
 
 ## Conclusions (+Notebook): 
 
-- Le jeu de données en quelques chiffres :
+**- Le jeu de données en quelques chiffres :**
 
   Nbr total de parties :  20058
 
@@ -47,7 +47,7 @@ Résultats attendus :
   
 Les questions soulevées par l'analyse exploratoire :
 
-- Pourquoi autant de joueurs aux alentours de 1500 élo ?
+**- Pourquoi autant de joueurs aux alentours de 1500 élo ?**
 
   Effectivement on remarque un nombre conqéquent de joueurs entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs ont exactement 1500 de score élo. Cette surreprésentation s'explique par de nombreux facteurs :
   - Glicko 2 : le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
@@ -55,7 +55,7 @@ Les questions soulevées par l'analyse exploratoire :
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
   - Le système de classement (rating) maintient un équilibre statistique,
   
-- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
+**- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?**
 
   Nbr victoires blancs : 10476 (52.22 %)
 
@@ -63,7 +63,7 @@ Les questions soulevées par l'analyse exploratoire :
   
   ->  52.22 % de victoires blanches contre 47.78% de victoires noires, les blancs ont bien un net avantage par rapport aux blancs dans notre étude. Cela entre en adéquation avec des études plus sérieuses sur l'avantage des blancs aux échecs qui estiment les chances de victoires des blancs entre  52-55 % sur Lichess.
 
-- Le système Elo est-il appliqué de manière cohérente dans les données ?
+**- Le système Elo est-il appliqué de manière cohérente dans les données ?**
 
   En utilsant la formule mathématiques liée au classement élo : P(Victoire)=1/(1 + 10^(-ΔElo/400​) , où ΔElo = Elofavori​−Eloadversaire​ et désigne la différence d'élo entre deux joueurs.
 
@@ -76,7 +76,7 @@ Les questions soulevées par l'analyse exploratoire :
 
 En général, oui le système élo est appliqué de manière cohérente dans nos données.
 
-- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :
+**- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :**
   
   Abandon : 55.6 %
   
