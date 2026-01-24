@@ -74,6 +74,7 @@ Les questions soulevées par l'analyse exploratoire :
 | 50–100    | ≈ 55–60 %                           | 57.9 %             |
 | 100–200   | ≈ 60–70 %                           | 64.7 %             | 
 
+**Comparaison Modèle vs Réalité (Régression Logistique) :** 
 L'analyse graphique, visible en fin de notebook, compare la courbe de probabilité théorique (en bleu) avec une régression logistique ajustée sur nos données réelles (en rouge). On observe que la courbe rouge est plus "douce" (pente plus faible) que la théorique. Cela signifie que la réalité des parties sur Lichess atténue légèrement les prédictions du modèle Elo pur : un fort écart de classement garantit une victoire un peu moins souvent que prévu par la théorie, laissant plus de place à l'incertitude (blitz, erreurs, fatigue).
 
 **- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :**
