@@ -49,7 +49,7 @@ Les questions soulevées par l'analyse exploratoire :
 
 **- Pourquoi autant de joueurs aux alentours de 1500 élo ?**
 
-  Effectivement on remarque un nombre conqéquent de joueurs entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs ont exactement 1500 de score élo. Cette surreprésentation s'explique par de nombreux facteurs :
+  On remarque un grand nombre de joueurs entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs ont exactement 1500 de score élo. Cette surreprésentation s'explique par de nombreux facteurs :
   - Glicko 2 : le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
   - La majorité des joueurs sont moyens ou peu actifs,
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
@@ -70,9 +70,9 @@ Les questions soulevées par l'analyse exploratoire :
   
 |   ΔElo    | Victoires du mieux classé attendues | Observations       |
 | --------- | ----------------------------------- | ------------------ |
-| 0–50      | ≈ 50–55 %                           | 51.5 %             |
-| 50–100    | ≈ 55–60 %                           | 57.9 %             |
-| 100–200   | ≈ 60–70 %                           | 64.7 %             | 
+| 0–50      | ≈ 50   – 57,1 %                     | 51.5 %             |
+| 50–100    | ≈ 57,1 – 64,0 %                     | 57.9 %             |
+| 100–200   | ≈ 64,0 – 76,0 %                     | 64.7 %             | 
 
 **Comparaison Modèle vs Réalité (Régression Logistique) :** 
 L'analyse graphique, visible en fin de notebook, compare la courbe de probabilité théorique (en bleu) avec une régression logistique ajustée sur nos données réelles (en rouge). On observe que la courbe rouge est plus "douce" (pente plus faible) que la théorique. Cela signifie que la réalité des parties sur Lichess atténue légèrement les prédictions du modèle Elo pur : un fort écart de classement garantit une victoire un peu moins souvent que prévu par la théorie, laissant plus de place à l'incertitude (blitz, erreurs, fatigue).
