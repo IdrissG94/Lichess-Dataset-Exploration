@@ -107,6 +107,8 @@ Sources :
 
 https://lichess.org/page/rating-systems
 
+https://lichess.org/
+
 https://fr.wikipedia.org/wiki/Classement_Elo
 
 Utilisation de l'IA générative dans le projet : 
