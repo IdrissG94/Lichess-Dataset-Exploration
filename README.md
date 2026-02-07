@@ -109,6 +109,12 @@ https://lichess.org/page/rating-systems
 
 https://fr.wikipedia.org/wiki/Classement_Elo
 
+Utilisation de l'IA générative dans le projet : 
+- Correction d'erreurs de syntaxe dans le code
+- Aide à la création de l'environnement virtuel
+- Structuration du Readme et du code dans un soucis de lisibilité
+- La totalité du code et la structure globale du projet ainsi que les pistes explorées et la rédaction du readme proviennent de moi
+
 Licence :
 Projet académique réalisé à des fins d’apprentissage.  
 Les données appartiennent à leurs auteurs respectifs (Lichess.org, Kaggle).
