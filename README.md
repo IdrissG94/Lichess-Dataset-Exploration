@@ -1,6 +1,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Pillow](https://img.shields.io/badge/Pillow-12.0.0-green.svg)](https://pillow.readthedocs.io/)
+
 # Lichess-Dataset-Exploration-Visualisation
 
 ## Introduction et description du projet :
