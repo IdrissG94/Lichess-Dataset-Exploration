@@ -106,7 +106,7 @@ L'analyse graphique, visible en fin de notebook, compare la courbe de probabilit
 
   Ces tendances peuvent être interprétées sous l’angle psychologique : entre résignation, erreur sous pression et absence de finalisation jusqu’au mat, les échecs apparaissent non seulement comme un jeu de stratégie, mais aussi comme un jeu de gestion émotionnelle.
 
-<img width="572" height="441" alt="image" src="https://github.com/user-attachments/assets/9ad1cb8b-096a-4d1c-a01c-74c4b0499f3f" />
+<img width="707" height="462" alt="image" src="https://github.com/user-attachments/assets/993c5bec-1bd5-4dd0-bfde-49c5049680ed" />
 
 
 ## Ouvertures et fin :
