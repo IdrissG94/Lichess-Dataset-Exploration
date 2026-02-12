@@ -31,7 +31,7 @@ Résultats attendus :
 - Étude l’influence de l’écart d’Elo sur le résultat des parties,
 - Mise en évidence (ou non) d’un avantage mesurable pour les Blancs.
 
-## Conclusions (+Notebook): 
+## Conclusions : 
 
 **- Le jeu de données en quelques chiffres :**
 
@@ -56,6 +56,9 @@ Les questions soulevées par l'analyse exploratoire :
   - La majorité des joueurs sont moyens ou peu actifs,
   - La distribution naturelle centrée sur la moyenne (rappel une gaussienne centrée),
   - Le système de classement (rating) maintient un équilibre statistique,
+
+    <img width="689" height="459" alt="image" src="https://github.com/user-attachments/assets/aa4ec28c-ef3b-4b98-bcb4-d16e074eb379" />
+
   
 **- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?**
 
@@ -81,6 +84,8 @@ Les questions soulevées par l'analyse exploratoire :
 **Comparaison Modèle vs Réalité (Régression Logistique) :** 
 L'analyse graphique, visible en fin de notebook, compare la courbe de probabilité théorique (en bleu) avec une régression logistique ajustée sur nos données réelles (en rouge). On observe que la courbe rouge est plus "douce" (pente plus faible) que la théorique. Cela signifie que la réalité des parties sur Lichess atténue légèrement les prédictions du modèle Elo pur : un fort écart de classement garantit une victoire un peu moins souvent que prévu par la théorie, laissant plus de place à l'incertitude.
 
+<img width="736" height="548" alt="image" src="https://github.com/user-attachments/assets/722afa86-da04-4ba5-8418-70447cdf3673" />
+
 **- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :**
   
   Abandon : 55.6 %
@@ -100,6 +105,8 @@ L'analyse graphique, visible en fin de notebook, compare la courbe de probabilit
   Enfin, les parties nulles (4,5 %) restent marginales dans ce dataset, ce qui laisse penser que l'équilibre parfait est rare à ces niveaux Elo, ou que les joueurs préfèrent tenter leur chance plutôt que forcer une nulle théorique.
 
   Ces tendances peuvent être interprétées sous l’angle psychologique : entre résignation, erreur sous pression et absence de finalisation jusqu’au mat, les échecs apparaissent non seulement comme un jeu de stratégie, mais aussi comme un jeu de gestion émotionnelle.
+
+<img width="572" height="441" alt="image" src="https://github.com/user-attachments/assets/9ad1cb8b-096a-4d1c-a01c-74c4b0499f3f" />
 
 
 ## Ouvertures et fin :
