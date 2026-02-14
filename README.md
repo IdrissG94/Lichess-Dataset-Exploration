@@ -31,7 +31,7 @@ Résultats attendus :
 - Étude l’influence de l’écart d’Elo sur le résultat des parties,
 - Mise en évidence (ou non) d’un avantage mesurable pour les Blancs.
 
-## Conclusions : 
+## Projet : 
 
 ### - Le jeu de données en quelques chiffres :
 
