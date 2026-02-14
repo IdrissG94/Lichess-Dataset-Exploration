@@ -86,6 +86,13 @@ L'analyse graphique, visible en fin de notebook, compare la courbe de probabilit
 
 <img width="736" height="548" alt="image" src="https://github.com/user-attachments/assets/722afa86-da04-4ba5-8418-70447cdf3673" />
 
+### Justification Mathématique du Modèle
+Le modèle de régression logistique estime la probabilité $P(Y=1|X)$ via la fonction sigmoïde. 
+L'optimisation des paramètres $\theta$ repose sur la minimisation de la fonction de coût **Log Loss** :
+$$J(\theta) = -\frac{1}{m} \sum_{i=1}^m [y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)}))]$$
+Cette approche est équivalente à la méthode du **Maximum de Vraisemblance**. En maximisant la probabilité d'obtenir les résultats observés dans le dataset Lichess, nous assurons la cohérence statistique de nos prédictions par rapport au modèle théorique Elo.
+
+
 **- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :**
   
   Abandon : 55.6 %
