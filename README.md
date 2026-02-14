@@ -121,7 +121,7 @@ Interprétation : Le modèle Elo pur surestime la probabilité de victoire du fa
 Ce projet constitue une première exploration, mais plusieurs prolongements sont possibles.
 D’un point de vue statistique, l’analyse pourrait être approfondie sur un dataset plus large (plusieurs centaines de milliers ou millions de parties) limiter les biais et confirmer les tendances. L’utilisation de méthodes de machine learning, permettrait de prédire l’issue d’une partie en fonction de l’Elo, de l’ouverture, du nombre de coups ou du contrôle de temps.
 
-###Sources :
+### Sources :
 
 https://lichess.org/page/rating-systems
 
