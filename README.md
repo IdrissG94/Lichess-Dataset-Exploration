@@ -33,7 +33,7 @@ Résultats attendus :
 
 ## Conclusions : 
 
-**- Le jeu de données en quelques chiffres :**
+###- Le jeu de données en quelques chiffres :
 
   Nbr total de parties :  20058
 
@@ -49,7 +49,7 @@ Résultats attendus :
   
 Les questions soulevées par l'analyse exploratoire :
 
-**- Pourquoi autant de joueurs aux alentours de 1500 élo ?**
+###- Pourquoi autant de joueurs aux alentours de 1500 élo ?
 
   On remarque un grand nombre de joueurs entre 1400 et 1600 élos ; ils représentent à eux seuls 58.15 % des joueurs et plus de 8% des joueurs ont exactement 1500 de score élo. Cette surreprésentation s'explique par de nombreux facteurs :
   - Glicko 2 : le système de classement sur lequel se base Lichess et dans ce système chaque nouveau joueur commence avec un élo égal à 1500,
@@ -60,7 +60,7 @@ Les questions soulevées par l'analyse exploratoire :
     <img width="689" height="459" alt="image" src="https://github.com/user-attachments/assets/aa4ec28c-ef3b-4b98-bcb4-d16e074eb379" />
 
   
-**- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?**
+###- L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
 
   Nbr victoires blancs : 10476 (52.22 %)
 
@@ -70,7 +70,7 @@ Les questions soulevées par l'analyse exploratoire :
 
   <img width="413" height="375" alt="image" src="https://github.com/user-attachments/assets/70e0830a-0dce-4d3b-88b2-c23b7dfbd055" />
 
-**- Le système Elo est-il appliqué de manière cohérente dans les données ?**
+###- Le système Elo est-il appliqué de manière cohérente dans les données ?
 
   En utilsant la formule mathématiques liée au classement élo : P(Victoire)=1/(1 + 10^(-ΔElo/400​) , où ΔElo = Elofavori​−Eloadversaire​ et désigne la différence d'élo entre deux joueurs.
 
@@ -81,7 +81,7 @@ Les questions soulevées par l'analyse exploratoire :
 | 50–100    | ≈ 57,1 – 64,0 %                     | 57.9 %             |
 | 100–200   | ≈ 64,0 – 76,0 %                     | 64.7 %             | 
 
-**Comparaison Modèle vs Réalité (Régression Logistique) :** 
+###- Comparaison Modèle vs Réalité (Régression Logistique) :
 L'analyse graphique, visible en fin de notebook, compare la courbe de probabilité théorique (en bleu) avec une régression logistique ajustée sur nos données réelles (en rouge). On observe que la courbe rouge est plus "douce" (pente plus faible) que la théorique. Cela signifie que la réalité des parties sur Lichess atténue légèrement les prédictions du modèle Elo pur : un fort écart de classement garantit une victoire un peu moins souvent que prévu par la théorie, laissant plus de place à l'incertitude.
 
 <img width="736" height="548" alt="image" src="https://github.com/user-attachments/assets/722afa86-da04-4ba5-8418-70447cdf3673" />
@@ -93,7 +93,7 @@ $$J(\theta) = -\frac{1}{m} \sum_{i=1}^m [y^{(i)} \log(h_\theta(x^{(i)})) + (1 - 
 Cette approche est équivalente à la méthode du **Maximum de Vraisemblance**. En maximisant la probabilité d'obtenir les résultats observés dans le dataset Lichess, nous assurons la cohérence statistique de nos prédictions par rapport au modèle théorique Elo.
 
 
-**- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :**
+###- Les échecs, un jeu frustrant ? Etude via les raisons de fin de partie :
   
   Abandon : 55.6 %
   
@@ -121,7 +121,7 @@ Cette approche est équivalente à la méthode du **Maximum de Vraisemblance**. 
 Ce projet constitue une première exploration, mais plusieurs prolongements sont possibles.
 D’un point de vue statistique, l’analyse pourrait être approfondie sur un dataset plus large (plusieurs centaines de milliers ou millions de parties) limiter les biais et confirmer les tendances. L’utilisation de méthodes de machine learning, permettrait de prédire l’issue d’une partie en fonction de l’Elo, de l’ouverture, du nombre de coups ou du contrôle de temps.
 
-Sources :
+###Sources :
 
 https://lichess.org/page/rating-systems
 
