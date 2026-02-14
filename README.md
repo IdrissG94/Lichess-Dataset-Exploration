@@ -73,6 +73,7 @@ Les questions soulevées par l'analyse exploratoire :
 ### - Le système Elo est-il appliqué de manière cohérente dans les données ?
 
   En utilsant la formule mathématiques liée au classement élo :
+  
   $$P(\text{Victoire}) = \frac{1}{1 + 10^{-\frac{\Delta \text{Elo}}{400}}}$$
 
 $$\text{où } \Delta \text{Elo} = \text{Elo}_{\text{favori}} - \text{Elo}_{\text{adversaire}}$$
