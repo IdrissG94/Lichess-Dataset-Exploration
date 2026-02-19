@@ -61,7 +61,7 @@ Les questions soulevées par l'analyse exploratoire :
 
   
 ### - L'avantage des blancs étant largement démontré en général, l'est-il réellement dans notre jeu de données ?
-(En comptant une nulle comme +0.5 pour blanc et noir)
+(En comptant une nulle comme +0.5 pour blanc et noir)/
   Nbr victoires blancs : 10476 (52.22 %)
 
   Nbr victoires noirs : 9582 (47.78 %)
