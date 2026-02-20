@@ -89,7 +89,8 @@ Afin de confronter la théorie à la pratique, j'ai implémenté une régression
 
 L'analyse graphique montre un écart systématique : la pente de la courbe empirique (en rouge) est plus faible que celle du modèle théorique Elo (en bleu). Mathématiquement, cela traduit un paramètre de sensibilité au différentiel de niveau plus faible dans la réalité de Lichess que dans le modèle idéal.
 
-Interprétation : Le modèle Elo pur surestime la probabilité de victoire du favori. Cette "douceur" de la courbe réelle suggère une variance plus élevée dans les résultats, probablement due à des facteurs non pris en compte par le score Elo seul (fatigue, gestion du temps, ou sous-estimation de l'aléa de la partie).
+Interprétation : Le modèle Elo pur surestime la probabilité de victoire du favori. Cette "douceur" de la courbe réelle suggère une variance plus élevée dans les résultats, probablement due à des facteurs non pris en compte par le score Elo seul (fatigue, gestion du temps, ou sous-estimation de l'aléa de la partie).  
+Il faut aussi prendre en compte la taille (assez restreinte) du dataset ainsi que le nombre largement moins important de parties où la différence d'Elo est grande. Et celà est dû au système de "matchmaking" (option présente dans certains jeux vidéo qui permet d'associer automatiquement différents joueurs à une partie) qui s'opère justement en fonction de la différence d'Elo.
 
 <img width="736" height="548" alt="image" src="https://github.com/user-attachments/assets/722afa86-da04-4ba5-8418-70447cdf3673" />
 
